@@ -1,0 +1,40 @@
+.block {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  justify-content: space-between;
+  width: 500px;
+  /* box-shadow: 0 0 10px rgba(2,2,2,2.2); Параметры тени */
+}
+
+.li:hover {
+  box-shadow: 0 10px 30px rgb(236, 178, 178);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+button {
+  width: 70px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: aqua;
+}
+button:hover {
+  box-shadow: 0 10px 30px rgb(0 0 0 / 90%);
+  transition: 0.5s ease-in-out;
+}
+.li {
+  color: aqua;
+  background-color: #050404;
+  margin-bottom: 10px;
+}
+.complete:hover {
+  /* background-color:rgb(145, 231, 184); */
+  box-shadow: 0 20px 50px rgb(97, 245, 164);
+  transition: 0.5s ease-in-out;
+}
+.delete {
+  background-color: rgb(231, 145, 145);
+}
