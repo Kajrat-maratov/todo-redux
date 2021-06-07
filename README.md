@@ -1,8 +1,9 @@
-# Getting Started with Create React App
+#Todo на react react redux
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## этот проект написан на react-redux 
 
 In the project directory, you can run:
 
